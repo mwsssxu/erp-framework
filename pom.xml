@@ -201,12 +201,11 @@
             <version>1.4</version>
         </dependency>
 
-        <!-- fastdfs 客户端 -->
         <!-- https://mvnrepository.com/artifact/org.csource/fastdfs-client-java -->
         <dependency>
             <groupId>org.csource</groupId>
             <artifactId>fastdfs-client-java</artifactId>
-            <version>1.27-SNAPSHOT</version>
+            <version>1.27-RELEASE</version>
         </dependency>
 
         <!-- 对springboot配置文件加密  使用connectProperties属性来处理数据库密码-->
