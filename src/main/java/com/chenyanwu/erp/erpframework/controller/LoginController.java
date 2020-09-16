@@ -87,9 +87,9 @@ public class LoginController {
             UsernamePasswordToken token = new UsernamePasswordToken(username, password, Boolean.valueOf(rememberMe));
             try {
                 user.login(token);
-                if (user.isAuthenticated()) {
+//                if (user.isAuthenticated()) {
                     map.put("url","index");
-                }
+//                }
             }catch (IncorrectCredentialsException e) {
                 error = "登录密码错误.";
             } catch (ExcessiveAttemptsException e) {

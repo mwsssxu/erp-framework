@@ -36,6 +36,7 @@ public class ErpUserServiceImpl extends BaseServiceImpl<ErpUser, Object>
 
     @Override
     public ErpUser findUserByLoginName(String loginName) {
-        return erpuserMapper.findUserByLoginName(loginName);
+        ErpUser user = erpuserMapper.findUserByLoginName(loginName);
+        return user;
     }
 }
